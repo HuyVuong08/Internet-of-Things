@@ -3,10 +3,14 @@ package com.hello.calculator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
 import static com.hello.calculator.MainActivity.OPERATOR.ADD;
+import static com.hello.calculator.MainActivity.OPERATOR.DIV;
+import static com.hello.calculator.MainActivity.OPERATOR.MOD;
+import static com.hello.calculator.MainActivity.OPERATOR.MUL;
 import static com.hello.calculator.MainActivity.OPERATOR.NONE;
 import static com.hello.calculator.MainActivity.OPERATOR.SUB;
 import static com.hello.calculator.MainActivity.STATE.FIRST_OP;
@@ -19,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public enum OPERATOR {
-        NONE,ADD, SUB, MUL, DIV
+        NONE,ADD, SUB, MUL, DIV, MOD
     }
 
     STATE state = FIRST_OP;
@@ -30,12 +34,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     Button btn9, btn8, btn7, btn6, btn5, btn4, btn3, btn2, btn1, btn0;
 
-    Button btnAdd, btnSub, btnDiv, btnMul, btnDel, btnAC, btnEqual, btnMod;
+    Button btnAdd, btnSub, btnDiv, btnMul, btnDel, btnAC, btnEqual, btnMod, btnDec;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        try
+        {
+            this.getSupportActionBar().hide();
+        }
+        catch (NullPointerException e){}
         setContentView(R.layout.activity_main);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+        WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         txtOut = findViewById(R.id.txtOut);
 
@@ -58,8 +70,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnSub = findViewById(R.id.btnSub); btnSub.setOnClickListener(this);
         btnMul = findViewById(R.id.btnMul); btnMul.setOnClickListener(this);
         btnDiv = findViewById(R.id.btnDiv); btnDiv.setOnClickListener(this);
-        btnMod = findViewById(R.id.btnMod); btnSub.setOnClickListener(this);
+        btnMod = findViewById(R.id.btnMod); btnMod.setOnClickListener(this);
         btnEqual = findViewById(R.id.btnEqual); btnEqual.setOnClickListener(this);
+        btnDec = findViewById(R.id.btnDec); btnDec.setOnClickListener(this);
 
     }
 
@@ -85,8 +98,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 else if (v.getId() == R.id.btnDec)
                 { //button Decimal
-                    String displayNumber = ((Button)v).getText().toString();
-                    txtOut.setText(txtOut.getText() + displayNumber);
+                    if(txtOut.getText().toString().contains(".") == false) {
+                        txtOut.setText(txtOut.getText() + ".");
+                    }
                 }
                 else if (v.getId() == R.id.btnAC)
                 { //button AC
@@ -95,6 +109,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     second_op = 0;
                     operator = NONE;
                     txtOut.setText("0");
+                }
+                else if (v.getId() == R.id.btnDel)
+                { //button Del
+                    if (txtOut.length() > 1)
+                    {
+                        txtOut.setText(txtOut.getText().toString().substring(0, txtOut.length() - 1));
+                    }
+                    else if (txtOut.length() == 1)
+                    {
+                        txtOut.setText("0");
+                    }
                 }
                 else if (v.getId() == R.id.btnEqual)
                 { //button Equal
@@ -111,6 +136,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 { //button Sub
                     first_op = Double.parseDouble(txtOut.getText().toString());
                     operator = SUB;
+                    state = RESET_SECOND_OP;
+                }
+                else if(v.getId() == R.id.btnMul)
+                { //button Mul
+                    first_op = Double.parseDouble(txtOut.getText().toString());
+                    operator = MUL;
+                    state = RESET_SECOND_OP;
+                }
+                else if(v.getId() == R.id.btnDiv)
+                { //button Div
+                    first_op = Double.parseDouble(txtOut.getText().toString());
+                    operator = DIV;
+                    state = RESET_SECOND_OP;
+                }
+                else if(v.getId() == R.id.btnMod)
+                { //button Mod
+                    first_op = Double.parseDouble(txtOut.getText().toString());
+                    operator = MOD;
                     state = RESET_SECOND_OP;
                 }
                 break;
@@ -143,6 +186,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         case SUB:
                             first_op -= second_op;
                             break;
+                        case MUL:
+                            first_op *= second_op;
+                            break;
+                        case DIV:
+                            first_op /= second_op;
+                            break;
+                        case MOD:
+                            first_op %= second_op;
+                            break;
                         default:
                             break;
                     }
@@ -157,6 +209,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 else if(v.getId() == R.id.btnSub)
                 { //button Sub
                     operator = SUB;
+                    state = RESET_SECOND_OP;
+                }
+                else if(v.getId() == R.id.btnMul)
+                { //button Mul
+                    operator = MUL;
+                    state = RESET_SECOND_OP;
+                }
+                else if(v.getId() == R.id.btnDiv)
+                { //button Div
+                    operator = DIV;
+                    state = RESET_SECOND_OP;
+                }
+                else if(v.getId() == R.id.btnMod)
+                { //button Mod
+                    operator = MOD;
                     state = RESET_SECOND_OP;
                 }
                 break;
@@ -189,6 +256,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         case SUB:
                             first_op -= second_op;
                             break;
+                        case MUL:
+                            first_op *= second_op;
+                            break;
+                        case DIV:
+                            first_op /= second_op;
+                            break;
+                        case MOD:
+                            first_op %= second_op;
+                            break;
                         default:
                             break;
                     }
@@ -204,6 +280,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             break;
                         case SUB:
                             first_op -= second_op;
+                            break;
+                        case MUL:
+                            first_op *= second_op;
+                            break;
+                        case DIV:
+                            first_op /= second_op;
+                            break;
+                        case MOD:
+                            first_op %= second_op;
                             break;
                         default:
                             break;
@@ -222,10 +307,97 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         case SUB:
                             first_op -= second_op;
                             break;
+                        case MUL:
+                            first_op *= second_op;
+                            break;
+                        case DIV:
+                            first_op /= second_op;
+                            break;
+                        case MOD:
+                            first_op %= second_op;
+                            break;
                         default:
                             break;
                     }
                     operator = SUB;
+                    txtOut.setText(first_op + "");
+                    state = RESET_SECOND_OP;
+                }
+                else if(v.getId() == R.id.btnMul)
+                { //button Mul
+                    second_op = Double.parseDouble(txtOut.getText().toString());
+                    switch (operator) {
+                        case ADD:
+                            first_op += second_op;
+                            break;
+                        case SUB:
+                            first_op -= second_op;
+                            break;
+                        case MUL:
+                            first_op *= second_op;
+                            break;
+                        case DIV:
+                            first_op /= second_op;
+                            break;
+                        case MOD:
+                            first_op %= second_op;
+                            break;
+                        default:
+                            break;
+                    }
+                    operator = MUL;
+                    txtOut.setText(first_op + "");
+                    state = RESET_SECOND_OP;
+                }
+                else if(v.getId() == R.id.btnDiv)
+                { //button Div
+                    second_op = Double.parseDouble(txtOut.getText().toString());
+                    switch (operator) {
+                        case ADD:
+                            first_op += second_op;
+                            break;
+                        case SUB:
+                            first_op -= second_op;
+                            break;
+                        case MUL:
+                            first_op *= second_op;
+                            break;
+                        case DIV:
+                            first_op /= second_op;
+                            break;
+                        case MOD:
+                            first_op %= second_op;
+                            break;
+                        default:
+                            break;
+                    }
+                    operator = DIV;
+                    txtOut.setText(first_op + "");
+                    state = RESET_SECOND_OP;
+                }
+                else if(v.getId() == R.id.btnMod)
+                { //button Div
+                    second_op = Double.parseDouble(txtOut.getText().toString());
+                    switch (operator) {
+                        case ADD:
+                            first_op += second_op;
+                            break;
+                        case SUB:
+                            first_op -= second_op;
+                            break;
+                        case MUL:
+                            first_op *= second_op;
+                            break;
+                        case DIV:
+                            first_op /= second_op;
+                            break;
+                        case MOD:
+                            first_op %= second_op;
+                            break;
+                        default:
+                            break;
+                    }
+                    operator = MOD;
                     txtOut.setText(first_op + "");
                     state = RESET_SECOND_OP;
                 }

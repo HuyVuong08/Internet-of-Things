@@ -14,7 +14,12 @@ import com.hoho.android.usbserial.driver.UsbSerialDriver;
 import com.hoho.android.usbserial.driver.UsbSerialPort;
 import com.hoho.android.usbserial.driver.UsbSerialProber;
 import com.hoho.android.usbserial.util.SerialInputOutputManager;
+import com.squareup.okhttp.Callback;
+import com.squareup.okhttp.OkHttpClient;
+import com.squareup.okhttp.Request;
+import com.squareup.okhttp.Response;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.Executors;
 
@@ -80,5 +85,22 @@ public class MainActivity extends Activity implements SerialInputOutputManager.L
     @Override
     public void onRunError(Exception e) {
 
+    }
+
+    private void sendDataToThingSpeak(int temp, int humi) {
+        String url = "https://api.thingspeak.com/update?api_key=O0DA23LRSXJCPSSS&field1=" + temp + "&field2=" + humi;
+        OkHttpClient okHttpClient = new OkHttpClient();
+        Request.Builder builder = new Request.Builder();
+        Request request = builder.url(url).build();
+        okHttpClient.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure (Request request, IOException e) {
+                Log.d("ABC", "The request is fail");
+            }
+
+            @Override
+            public void onResponse(Response response) throws IOException {
+                Log.d("ABC", "The request is success");
+            }
     }
 }
