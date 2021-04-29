@@ -20,11 +20,17 @@ public class MQTTHelper {
 
     final String serverUri = "tcp://io.adafruit.com:1883";
 
-    final String clientId = "sender";
-    final String subscriptionTopic = "pnthoai165/feeds/bk-iot-test";
+    final String clientId = "senderHuy";
 
-    final String username = "pnthoai165";
-    final String password = "aio_zWZw1838fIvkp0ORnSAiiUoeHOlD";
+//    final String subscriptionTopic = "pnthoai165/feeds/bk-iot-test";
+
+//    final String username = "pnthoai165";
+//    final String password = "aio_zWZw1838fIvkp0ORnSAiiUoeHOlD";
+
+    final String subscriptionTopic = "Kenz201/feeds/iot-bk-202";
+
+    final String username = "Kenz201";
+    final String password = "aio_DajG38ANVNl822gmovNEkpk3gLDL";
 
     public MqttAndroidClient mqttAndroidClient;
 
@@ -247,10 +253,10 @@ public class MQTTHelper {
 //            });
 //
 //        } catch (MqttException ex) {
-//            System.err.println("Exceptionst subscribing");
+//
+//           System.err.println("Exceptionst subscribing");
 //            ex.printStackTrace();
 //        }
 //    }
 //
 //}
-
