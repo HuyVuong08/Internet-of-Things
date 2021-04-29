@@ -311,8 +311,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 else if(v.getId() == R.id.btnAdd)
                 { //button Add
                     second_op = Double.parseDouble(txtOut.getText().toString());
-                    operator = ADD;
                     calculateAndPrint();
+                    operator = ADD;
                     isBntEqual = false;
                     state = RESET_SECOND_OP;
                 }

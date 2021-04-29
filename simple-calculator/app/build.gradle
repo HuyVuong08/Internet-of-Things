@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.hello.usb2serial"
+        applicationId "com.hello.huygay"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
