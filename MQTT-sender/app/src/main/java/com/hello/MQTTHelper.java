@@ -22,10 +22,10 @@ public class MQTTHelper {
 
     final String clientId = "senderHuy";
 
-//    final String subscriptionTopic = "pnthoai165/feeds/bk-iot-test";
-
-//    final String username = "pnthoai165";
-//    final String password = "aio_zWZw1838fIvkp0ORnSAiiUoeHOlD";
+//    final String subscriptionTopic = "huyvuong820/feeds/iot";
+//
+//    final String username = "huyvuong820";
+//    final String password = "huytr66599720";
 
     final String subscriptionTopic = "Kenz201/feeds/iot-bk-202";
 
