@@ -17,6 +17,14 @@ while True:
         uart.write(msg_radio)
         display.show(Image.YES)
 
+    msg_uart = uart.read()
+    if msg_uart is not None:
+        display.show(Image.YES)
+        sleep(1000)
+        display.scroll(msg_uart)
+        msg_str = str(msg_uart, 'UTF-8')
+        radio.send(msg_str)
+
     if count == 120:
         display.clear()
 

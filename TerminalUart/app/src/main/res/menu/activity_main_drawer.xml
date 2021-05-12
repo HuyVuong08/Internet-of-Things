@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Parameter">
+        <menu>
+            <item
+                android:id="@+id/nav_baudrate"
+                android:title="Baudrate"
+                app:actionLayout="@layout/baudrate_spinner"/>
+            <item
+                android:id="@+id/nav_databit"
+                android:title="Data bit"
+                app:actionLayout="@layout/databit_spinner"/>/>
+            <item
+                android:id="@+id/nav_parity"
+                android:title="Parity"
+                app:actionLayout="@layout/parity_spinner"/>/>
+            <item
+                android:id="@+id/nav_stopbit"
+                android:title="Stop bit"
+                app:actionLayout="@layout/stopbit_spinner"/>/>
+        </menu>
+    </item>
+
+</menu>
