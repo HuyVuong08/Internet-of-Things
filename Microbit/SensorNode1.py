@@ -15,7 +15,7 @@ while True:
         display.clear()
 
     if count == 1000:
-      ter
+        count = 0
         display.show(Image.HAPPY)
         temp = str(temperature())
         msg = "#N1:" + temp + "$"
