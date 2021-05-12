@@ -7,7 +7,7 @@ radio.on()
 uart.init(baudrate=115200)
 
 while True:
-    if button_a.was_pressed():
+    if button_a.was_pressed
         display.show(Image.HAPPY)
         temp = str(temperature())
         msg_uart = "#N1:" + temp + "$"
