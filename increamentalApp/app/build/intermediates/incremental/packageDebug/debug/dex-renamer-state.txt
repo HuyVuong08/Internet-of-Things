@@ -1,0 +1,4 @@
+#Sun May 02 21:14:15 ICT 2021
+base.0=/home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

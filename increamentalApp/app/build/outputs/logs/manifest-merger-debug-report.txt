@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/constraint-layout-2.0.4.aar/7b5728091b9ebae9211216adaee795cf/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/672ff11d55b0acaff04ea264dd0f52ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7d6b56546b04d7a5c14d7acf2be92b16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/03b5d7b42b9fab228f011dae48410981/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/9c464a3ee541c90bcd0a05f7e54c50cb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9369fc4e46e4bca5e96d2afb5b025932/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a3a89c902b9cfc5d952941533031d720/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/e2009587c682811e365058246f097043/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d25b9ae577dd75ba4664b78a823e090d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/1464b689d3a9f8c36c3644fdea27c741/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ac743b21cf5ec743e69609e03c9b8f4c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/84c6ba2806251ff205d588e5a96b990f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/5bfc6b8c0da5741f5eb4446d982fc155/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/10edfe9f1b8621ac19932f46480ce9e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1c97eb4a457fbf2d751ed142d7473c2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/46b3d1a030e45742361c5448663dcb5f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/631078d19611dfb9aef41721732f9338/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/faddfe3aabf6aba2718ea52caf7db572/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/264ac58f7737bffc3151ae07601fe929/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9b94802d2b1b4a8476fa49ddcb47bb95/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8d22e29648eae570738bb1b880a5628e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/52e526badd3444c04af6948a794a895f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6e19dc9d50c329aa792112f49a2e446f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/abe340e1958518ae38faec3a3b0c3187/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/73be753be445858a07d8420bae79af8b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9f380b279b64debcd795e401a221bb60/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ff9d9f402ddc860b14b0ad2491523d11/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/constraint-layout-2.0.4.aar/7b5728091b9ebae9211216adaee795cf/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/constraint-layout-2.0.4.aar/7b5728091b9ebae9211216adaee795cf/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/46b3d1a030e45742361c5448663dcb5f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/46b3d1a030e45742361c5448663dcb5f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/631078d19611dfb9aef41721732f9338/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/631078d19611dfb9aef41721732f9338/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/46b3d1a030e45742361c5448663dcb5f/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.hello.increamental_app.MainActivity
+ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/constraint-layout-2.0.4.aar/7b5728091b9ebae9211216adaee795cf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/constraint-layout-2.0.4.aar/7b5728091b9ebae9211216adaee795cf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/672ff11d55b0acaff04ea264dd0f52ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/672ff11d55b0acaff04ea264dd0f52ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7d6b56546b04d7a5c14d7acf2be92b16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7d6b56546b04d7a5c14d7acf2be92b16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/03b5d7b42b9fab228f011dae48410981/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/03b5d7b42b9fab228f011dae48410981/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/9c464a3ee541c90bcd0a05f7e54c50cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/9c464a3ee541c90bcd0a05f7e54c50cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9369fc4e46e4bca5e96d2afb5b025932/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9369fc4e46e4bca5e96d2afb5b025932/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a3a89c902b9cfc5d952941533031d720/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a3a89c902b9cfc5d952941533031d720/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/e2009587c682811e365058246f097043/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/e2009587c682811e365058246f097043/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d25b9ae577dd75ba4664b78a823e090d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d25b9ae577dd75ba4664b78a823e090d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/1464b689d3a9f8c36c3644fdea27c741/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/1464b689d3a9f8c36c3644fdea27c741/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ac743b21cf5ec743e69609e03c9b8f4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ac743b21cf5ec743e69609e03c9b8f4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/84c6ba2806251ff205d588e5a96b990f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/84c6ba2806251ff205d588e5a96b990f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/5bfc6b8c0da5741f5eb4446d982fc155/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/5bfc6b8c0da5741f5eb4446d982fc155/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/10edfe9f1b8621ac19932f46480ce9e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/10edfe9f1b8621ac19932f46480ce9e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1c97eb4a457fbf2d751ed142d7473c2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1c97eb4a457fbf2d751ed142d7473c2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/46b3d1a030e45742361c5448663dcb5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/46b3d1a030e45742361c5448663dcb5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/631078d19611dfb9aef41721732f9338/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/631078d19611dfb9aef41721732f9338/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/faddfe3aabf6aba2718ea52caf7db572/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/faddfe3aabf6aba2718ea52caf7db572/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/264ac58f7737bffc3151ae07601fe929/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/264ac58f7737bffc3151ae07601fe929/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9b94802d2b1b4a8476fa49ddcb47bb95/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9b94802d2b1b4a8476fa49ddcb47bb95/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8d22e29648eae570738bb1b880a5628e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8d22e29648eae570738bb1b880a5628e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/52e526badd3444c04af6948a794a895f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/52e526badd3444c04af6948a794a895f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6e19dc9d50c329aa792112f49a2e446f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6e19dc9d50c329aa792112f49a2e446f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/abe340e1958518ae38faec3a3b0c3187/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/abe340e1958518ae38faec3a3b0c3187/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/73be753be445858a07d8420bae79af8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/73be753be445858a07d8420bae79af8b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9f380b279b64debcd795e401a221bb60/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9f380b279b64debcd795e401a221bb60/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ff9d9f402ddc860b14b0ad2491523d11/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/mercedes-benz-s400/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ff9d9f402ddc860b14b0ad2491523d11/AndroidManifest.xml:20:5-44
+INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+		ADDED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mercedes-benz-s400/AndroidStudioProjects/increamentalapp/app/src/main/AndroidManifest.xml
