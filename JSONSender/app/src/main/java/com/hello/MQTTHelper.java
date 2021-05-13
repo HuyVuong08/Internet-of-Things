@@ -20,17 +20,18 @@ public class MQTTHelper {
 
     final String serverUri = "tcp://io.adafruit.com:1883";
 
-    final String clientId = "senderDuy";
 
-//    final String subscriptionTopic = "huyvuong820/feeds/iot";
+    final String clientId = "sender";
+
+    final String subscriptionTopic = "huyvuong820/feeds/iot";
+
+    final String username = "huyvuong820";
+    final String password = "aio_yYJm55pnMIulgrLJan26Pfdhxwxe";
+
+//    final String subscriptionTopic = "Kenz201/feeds/iot-bk-202";
 //
-//    final String username = "huyvuong820";
-//    final String password = "aio_yYJm55pnMIulgrLJan26Pfdhxwxe";
-
-    final String subscriptionTopic = "Kenz201/feeds/iot-bk-202";
-
-    final String username = "Kenz201";
-    final String password = "aio_eeFW92s2Uuf5Fc8zK6YjDQffDge4";
+//    final String username = "Kenz201";
+//    final String password = "aio_DajG38ANVNl822gmovNEkpk3gLDL";
 
     public MqttAndroidClient mqttAndroidClient;
 

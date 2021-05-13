@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JSONSender.iml" filepath="$PROJECT_DIR$/JSONSender.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simpleCalculator.iml" filepath="$PROJECT_DIR$/simpleCalculator.iml" />
     </modules>
   </component>
 </project>

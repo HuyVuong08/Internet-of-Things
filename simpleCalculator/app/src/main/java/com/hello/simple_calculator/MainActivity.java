@@ -17,7 +17,7 @@ import static com.hello.simple_calculator.MainActivity.STATE.RESET_SECOND_OP;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     public enum STATE {
-        FIRST_OP, RESET_SECOND_OP, SECOND_OP
+        FIRST_OP
     }
 
     public enum OPERATOR {
@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     EditText num1, num2;
 
     Button btnAdd, btnSub, btnDiv, btnMul;
-
-    boolean isBntEqual = false;
 
     public void calculateAndPrint () {
         switch (operator) {
