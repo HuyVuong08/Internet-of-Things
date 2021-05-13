@@ -18,14 +18,14 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
  */
 public class MQTTHelper {
 
-    final String serverUri = "tcp://io.adafruit.com:1883";
+    final String serverUri = "tcp://io.adafruit.com:8883"4;
 
     final String clientId = "senderHuy";
 
     final String subscriptionTopic = "huyvuong820/feeds/iot";
 
     final String username = "huyvuong820";
-    final String password = "aio_Qhdx08V5CTQW87l7z919jBBD41D7";
+    final String password = "aio_KCip61RChOi2tCnNlKmMr9KgZo28";
 
 //    final String subscriptionTopic = "Kenz201/feeds/iot-bk-202";
 //

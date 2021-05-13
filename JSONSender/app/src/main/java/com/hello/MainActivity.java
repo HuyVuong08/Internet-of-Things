@@ -41,17 +41,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnSubmit = findViewById(R.id.btnSubmit); btnSubmit.setOnClickListener(this);
 
-        new Timer().scheduleAtFixedRate(new TimerTask(){
-            @Override
-            public void run(){
-                Random rand = new Random();
-                int randnum = rand.nextInt(30+1) + 20;
-                Log.i("tag", String.format("random: %s", randnum));
-
-                if(mqttHelper != null)
-                    mqttHelper.connectToPublish(String.format("%s", randnum));
-            }
-        },0,10000);
+//        new Timer().scheduleAtFixedRate(new TimerTask(){
+//            @Override
+//            public void run(){
+//                Random rand = new Random();
+//                int randnum = rand.nextInt(30+1) + 20;
+//                Log.i("tag", String.format("random: %s", randnum));
+//
+//                if(mqttHelper != null)
+//                    mqttHelper.connectToPublish(String.format("%s", randnum));
+//            }
+//        },0,10000);
 
         startMQTT();
     }
@@ -72,13 +72,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             Log.d( "Data", String.format("ID: %s", data_id));
             Log.d( "Data", String.format("Temperature: %s", data_temperature));
-            Log.d( "Data", String.format("Light: %s", data_light));
+            Log.d( "Data", String.format("Light:  %s", data_light));
 
             String json_string = String.format("{\"id\":%s, \"temperature\":%s, \"light\":%s}", data_id, data_temperature, data_light);
 
             data = gson.fromJson(json_string, Data.class);
 
             Log.d("JSON", String.format("%s",data));
+
+            if(mqttHelper != null) {
+                mqttHelper.connectToPublish(String.format("%s", data));
+            }
         }
     }
 
@@ -96,10 +100,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         @Override
         public String toString() {
-            return new StringBuilder().append("JSON{").append("ID: ")
-                    .append(id).append(", Temperature: ")
-                    .append(temperature).append(", Light: ")
-                    .append(light).append("}").toString();
+            return new StringBuilder().append("JSON { ").append("\"ID\":\"")
+                    .append(id).append("\", \"Temperature\":\"")
+                    .append(temperature).append("\", \"Light\":\"")
+                    .append(light).append("\" }").toString();
         }
     }
 
@@ -116,7 +120,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void connectionLost(Throwable throwable) {
 
             }
-
 
             @Override
             public void messageArrived(String topic, MqttMessage mqttMessage) throws Exception {

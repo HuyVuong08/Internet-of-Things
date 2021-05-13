@@ -26,7 +26,7 @@ public class MQTTHelper {
     final String subscriptionTopic = "huyvuong820/feeds/iot";
 
     final String username = "huyvuong820";
-    final String password = "aio_yYJm55pnMIulgrLJan26Pfdhxwxe";
+    final String password = "aio_KCip61RChOi2tCnNlKmMr9KgZo28";
 
 //    final String subscriptionTopic = "Kenz201/feeds/iot-bk-202";
 //
