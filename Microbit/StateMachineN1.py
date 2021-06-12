@@ -9,9 +9,12 @@ uart.init(baudrate=115200)
 Waiting_Time = 0
 Time_Out = 300  # Set Time Out 3 Seconds
 
+RDF_NO = 0
 STATE = "Receive_Message"
 PREV_STATE = "Receive_Message"
 isPrinted = 0
+power = "ON"
+count = 0
 
 while True:
     if STATE == "Receive_Message":
@@ -23,11 +26,12 @@ while True:
         msg_receive = radio.receive()
         if msg_receive is not None:
 
-            print("DATA FRAME CONTENT:", msg_receive)
+            print("Received a Data Frame:", msg_receive)
             isPrinted = 0
+            PREV_STATE = "Receive_Message"
             STATE = "Process_Received_Data_Frame"
 
-        elif button_a.was_pressed():
+        elif (button_a.was_pressed()) and (power == "ON"):
             DF_NO = 0
             isPrinted = 0
             STATE = "Send_Message"
@@ -41,20 +45,27 @@ while True:
 
         if msg_receive[0:2] == "GW":
 
-            if msg_receive[2:] == "#":
+            if msg_receive[3:] == "#":
+                RDF_NO = 1
                 GW_Message = "#" + msg_receive[0:2] + ":"
 
-            elif msg_receive[2:] == "$":
+            elif (msg_receive[3:] == "$") and (int(msg_receive[2]) == RDF_NO):
                 GW_Message += "$"
                 print("GATEWAY MESSAGE:", GW_Message)
+                if GW_Message == "#GW:N1,OFF$":
+                    power = "OFF"
+                elif GW_Message == "#GW:N1,ON$":
+                    power = "ON"
+                print("POWER:", power)
+                RDF_NO += 1
+
+            elif int(msg_receive[2]) == RDF_NO:
+                GW_Message += msg_receive[3:]
+                RDF_NO += 1
 
             else:
-                GW_Message += msg_receive[2:]
+                print("Message Duplicated")
 
-            STATE = "Send_Acknowledgement"
-
-        elif (msg_receive[0:2] == "N1") or (msg_receive[0:2] == "N2"):
-            uart.write(msg_receive[2:])
             STATE = "Send_Acknowledgement"
 
         else:
@@ -83,7 +94,7 @@ while True:
 
         if DF_NO == 0:
 
-            msg = "N1#"
+            msg = "N10#"
             msg_str = str(msg, 'UTF-8')
             radio.send(msg_str)
             print("DATA: Send Data Frame NO 0")
@@ -93,7 +104,7 @@ while True:
         elif DF_NO == 1:
 
             Temperature = str(temperature())
-            msg = "N1" + Temperature
+            msg = "N11" + Temperature
             msg_str = str(msg, 'UTF-8')
             radio.send(msg_str)
             print("DATA: Send Data Frame NO 1")
@@ -102,7 +113,7 @@ while True:
 
         elif DF_NO == 2:
 
-            msg = "N1,"
+            msg = "N12,"
             msg_str = str(msg, 'UTF-8')
             radio.send(msg_str)
             print("DATA: Send Data Frame NO 2")
@@ -112,7 +123,7 @@ while True:
         elif DF_NO == 3:
 
             LightLevel = str(display.read_light_level())
-            msg = "N1" + LightLevel
+            msg = "N13" + LightLevel
             msg_str = str(msg, 'UTF-8')
             radio.send(msg_str)
             print("DATA: Send Data Frame NO 3")
@@ -121,7 +132,7 @@ while True:
 
         elif DF_NO == 4:
 
-            msg = "N1$"
+            msg = "N14$"
             msg_str = str(msg, 'UTF-8')
             radio.send(msg_str)
             print("DATA: Send Data Frame NO 4")
@@ -143,14 +154,14 @@ while True:
         msg_receive = radio.receive()
         if msg_receive is not None:
 
-            if (msg_receive[0] == "N") or (msg_receive[0] == "G"):
+            if msg_receive[0:2] == "GW":
 
-                print("DATA FRAME CONTENT:", msg_receive)
+                print("Received a Data Frame:", msg_receive)
                 PREV_STATE = "Receive_Acknowledgement"
                 Waiting_Time += 1
                 STATE = "Process_Received_Data_Frame"
 
-            elif msg_receive == "A" + msg_str:
+            elif msg_receive == "A" + msg:
 
                 display.clear()
                 display.show(Image.YES)
@@ -189,4 +200,5 @@ while True:
             Waiting_Time += 1
             isPrinted = 1
 
+    count += 1
     sleep(10)
