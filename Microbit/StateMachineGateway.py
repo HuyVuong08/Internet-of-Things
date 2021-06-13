@@ -13,6 +13,46 @@ STATE = "Receive_Message"
 PREV_STATE = "Receive_Message"
 isPrinted = 0
 
+def Send_Data_Frame(Data_Frame_NO):
+
+    global msg, msg_strg, STATE
+    if Data_Frame_NO == 0:
+        msg = "GW0#"
+    elif Data_Frame_NO == 1:
+        msg = "GW1" + Node
+    elif Data_Frame_NO == 2:
+        msg = "GW2,"
+    elif Data_Frame_NO == 3:
+        msg = "GW3" + Power
+    elif Data_Frame_NO == 4:
+        msg = "GW4$"
+    else:
+        print("DATA: Data Frame Number Error")
+        return None
+    msg_encoded = Encode_Data(msg)
+    msg_str = str(msg_encoded, 'UTF-8')
+    radio.send(msg_str)
+    print("DATA: Send Data Frame NO", Data_Frame_NO)
+    STATE = "Receive_Acknowledgement"
+
+def Encode_Data(Message):
+
+    Encoded_Message = ""
+    for Letter in Message:
+        Letter_Num = ord(Letter)
+        Encoded_Letter_Num = Letter_Num + 29
+        Encoded_Message += chr(Encoded_Letter_Num)
+    return Encoded_Message
+
+def Decoded_Data(Encoded_Message):
+
+    Decoded_Message = ""
+    for Letter in Encoded_Message:
+        Letter_Num = ord(Letter)
+        Decoded_Letter_Num = Letter_Num - 29
+        Decoded_Message += chr(Decoded_Letter_Num)
+    return Decoded_Message
+
 while True:
     if STATE == "Receive_Message":
 
@@ -51,8 +91,9 @@ while True:
 
         print("\nSTATE: Process_Received_Data_Frame")
 
-        if (msg_receive[0:2] == "N1") or (msg_receive[0:2] == "N2"):
-            uart.write(msg_receive)
+        msg_decoded = Decoded_Data(msg_receive)
+        if (msg_decoded[0:2] == "N1") or (msg_decoded[0:2] == "N2"):
+            uart.write(msg_decoded)
             print("")
             STATE = "Send_Acknowledgement"
 
@@ -64,8 +105,9 @@ while True:
 
         display.show(Image.HAPPY)
         print("\nSTATE: Send_Acknowledgement")
-        msg_ack = "A" + msg_receive
-        msg_str = str(msg_ack, 'UTF-8')
+        msg_ack = "A" + msg_decoded
+        msg_encoded = Encode_Data(msg_ack)
+        msg_str = str(msg_encoded, 'UTF-8')
         radio.send(msg_str)
         print("Acknowledgement:", msg_str)
         if PREV_STATE == "Receive_Acknowledgement":
@@ -77,56 +119,9 @@ while True:
 
     elif STATE == "Send_Message":
 
-        display.clear()
         print("\nSTATE: Send_Message")
-
-        if DF_NO == 0:
-
-            msg = "GW0#"
-            msg_str = str(msg, 'UTF-8')
-            radio.send(msg_str)
-            print("DATA: Send Data Frame NO 0")
-            isPrinted = 0
-            STATE = "Receive_Acknowledgement"
-
-        elif DF_NO == 1:
-
-            msg = "GW1" + Node
-            msg_str = str(msg, 'UTF-8')
-            radio.send(msg_str)
-            print("DATA: Send Data Frame NO 1")
-            isPrinted = 0
-            STATE = "Receive_Acknowledgement"
-
-        elif DF_NO == 2:
-
-            msg = "GW2,"
-            msg_str = str(msg, 'UTF-8')
-            radio.send(msg_str)
-            print("DATA: Send Data Frame NO 2")
-            isPrinted = 0
-            STATE = "Receive_Acknowledgement"
-
-        elif DF_NO == 3:
-
-            msg = "GW3" + Power
-            msg_str = str(msg, 'UTF-8')
-            radio.send(msg_str)
-            print("DATA: Send Data Frame NO 3")
-            isPrinted = 0
-            STATE = "Receive_Acknowledgement"
-
-        elif DF_NO == 4:
-
-            msg = "GW4$"
-            msg_str = str(msg, 'UTF-8')
-            radio.send(msg_str)
-            print("DATA: Send Data Frame NO 4")
-            isPrinted = 0
-            STATE = "Receive_Acknowledgement"
-
-        else:
-            print("DATA: Data Frame Number Error")
+        display.clear()
+        Send_Data_Frame(DF_NO)
 
     elif STATE == "Receive_Acknowledgement":
 
@@ -140,14 +135,15 @@ while True:
         msg_receive = radio.receive()
         if msg_receive is not None:
 
-            if (msg_receive[0:2] == "N1") or (msg_receive[0:2] == "N2"):
+            msg_decoded = Decoded_Data(msg_receive)
+            if (msg_decoded[0:2] == "N1") or (msg_decoded[0:2] == "N2"):
 
-                print("Received a Data Frame:", msg_receive)
+                print("Received a Data Frame:", msg_decoded)
                 PREV_STATE = "Receive_Acknowledgement"
                 Waiting_Time += 1
                 STATE = "Process_Received_Data_Frame"
 
-            elif msg_receive == "A" + msg:
+            elif msg_decoded == "A" + msg:
 
                 display.clear()
                 display.show(Image.YES)
