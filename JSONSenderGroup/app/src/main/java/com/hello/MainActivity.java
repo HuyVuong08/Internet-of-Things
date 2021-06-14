@@ -196,9 +196,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         @Override
         public String toString() {
-            return new StringBuilder().append("{\"feeds\":{\"Temperature").append(id).append("\":\"")
-                    .append(temperature).append("\",\"Light").append(id).append("\":\"")
-                    .append(light).append("\"},\"location\":\"21\"}").toString();
+            return new StringBuilder().append("{\"feeds\":{\"temperature").append(id).append("\":\"")
+                    .append(temperature).append("\",\"light").append(id).append("\":\"")
+                    .append(light).append("\"}}").toString();
 //            .append("\"},\"location\": {\"id\"").append(id)
 
         }

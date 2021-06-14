@@ -26,7 +26,7 @@ public class MQTTHelper {
     final String subscriptionTopic = "huyvuong820/groups/internet-of-things/json";
 
     final String username = "huyvuong820";
-    final String password = "aio_HJyC1777YCb9CfPiteGkK5rJMMjW";
+    final String password = "aio_xzLf09FZBwo8ePX4d2ycWVRhEuUl";
 
 //    final String subscriptionTopic = "Kenz201/feeds/iot-bk-202";
 //

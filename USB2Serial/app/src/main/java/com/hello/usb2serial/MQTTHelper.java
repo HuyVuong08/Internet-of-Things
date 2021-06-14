@@ -1,4 +1,4 @@
-package com.hello;
+package com.hello.usb2serial;
 
 import android.content.Context;
 import android.util.Log;
@@ -14,19 +14,20 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 
 /**
- * Created by DELL on 20/04/2021.
+ * Created by mercedes-benz-s400 on 14/06/21.
  */
+
 public class MQTTHelper {
 
     final String serverUri = "tcp://io.adafruit.com:1883";
 
 
-    final String clientId = "sender";
+    final String clientId = "Gateway";
 
     final String subscriptionTopic = "huyvuong820/groups/internet-of-things/json";
 
     final String username = "huyvuong820";
-    final String password = "aio_faIF196QoWmtz116gyzh8OXXnQE0";
+    final String password = "aio_xzLf09FZBwo8ePX4d2ycWVRhEuUl";
 
 //    final String subscriptionTopic = "Kenz201/feeds/iot-bk-202";
 //

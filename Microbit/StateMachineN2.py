@@ -1,4 +1,4 @@
-from microbit import uart, display, Image, temperature, sleep
+from microbit import uart, display, Image, temperature, sleep, button_a
 import radio
 
 radio.config(group=199)
@@ -14,7 +14,6 @@ STATE = "Receive_Message"
 PREV_STATE = "Receive_Message"
 isPrinted = 0
 power = "ON"
-sampling_rate = 6
 count = 0
 
 def Encode_Data(Message):
@@ -50,8 +49,7 @@ while True:
             PREV_STATE = "Receive_Message"
             STATE = "Process_Received_Data_Frame"
 
-        elif (count >= 6000/(sampling_rate+2)) and (power == "ON"):
-            count = 0
+        elif (button_a.was_pressed()) and (power == "ON"):
             DataFrame_NO = 0
             isPrinted = 0
             STATE = "Send_Message"
@@ -73,23 +71,11 @@ while True:
             elif (msg_decoded[3:] == "$") and (int(msg_decoded[2]) == Received_DataFrame_NO):
                 GW_Message += "$"
                 print("GATEWAY MESSAGE:", GW_Message)
-                if GW_Message[0:6] == "#GW:N1":
-                    print("Node:", GW_Message[4:6])
-                    if GW_Message[7].isdigit():
-                        sampling_rate = int(GW_Message[7:-1])
-                        print("Sampling Rate:", sampling_rate)
-                    elif GW_Message[7].isalpha():
-                        power = GW_Message[7:-1]
-                        print("Power:", power)
-                    else:
-                        print("Ignore Gateway Message")
-                else:
-                    print("Ignore Gateway Message")
-                # if GW_Message == "#GW:N1,OFF$":
-                    # power = "OFF"
-                # elif GW_Message == "#GW:N1,ON$":
-                    # power = "ON"
-                # print("POWER:", power)
+                if GW_Message == "#GW:N2,OFF$":
+                    power = "OFF"
+                elif GW_Message == "#GW:N2,ON$":
+                    power = "ON"
+                print("POWER:", power)
                 Received_DataFrame_NO += 1
 
             elif int(msg_decoded[2]) == Received_DataFrame_NO:
@@ -126,17 +112,17 @@ while True:
         print("\nSTATE: Send_Message")
         display.clear()
         if DataFrame_NO == 0:
-            msg = "N10#"
+            msg = "N20#"
         elif DataFrame_NO == 1:
             Temperature = str(temperature())
-            msg = "N11" + Temperature
+            msg = "N21" + Temperature
         elif DataFrame_NO == 2:
-            msg = "N12,"
+            msg = "N22,"
         elif DataFrame_NO == 3:
             LightLevel = str(display.read_light_level())
-            msg = "N13" + LightLevel
+            msg = "N23" + LightLevel
         elif DataFrame_NO == 4:
-            msg = "N14$"
+            msg = "N24$"
         else:
             print("DATA: Data Frame Number Error")
         msg_encoded = Encode_Data(msg)

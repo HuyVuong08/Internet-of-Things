@@ -206,6 +206,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 json_string = String.format("{\"id\":\"node1\",\"power\":\"OFF\"}");
 
             }
+
+            data = gson.fromJson(json_string, Data.class);
+
+            Log.d("JSON-Send", String.format("%s",data));
+            if(mqttHelper != null) {
+
+                mqttHelper.connectToPublish(String.format("%s", data));
+
+            }
         }
 
         else if(v.getId()==R.id.btnNode2) {
@@ -224,16 +233,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 json_string = String.format("{\"id\":\"node2\",\"power\":\"OFF\"}");
 
             }
-        }
 
             data = gson.fromJson(json_string, Data.class);
 
             Log.d("JSON-Send", String.format("%s",data));
-    //        if(mqttHelper != null) {
-    //
-    //            mqttHelper.connectToPublish(String.format("%s", data));
-    //
-    //        }
+            if(mqttHelper != null) {
+
+                mqttHelper.connectToPublish(String.format("%s", data));
+
+            }
+        }
     }
 
     class Data {
