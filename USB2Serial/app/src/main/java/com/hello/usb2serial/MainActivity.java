@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ScrollView;
@@ -27,7 +28,9 @@ import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
 import org.eclipse.paho.client.mqttv3.MqttCallbackExtended;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.util.List;
 import java.util.concurrent.Executors;
@@ -71,13 +74,39 @@ public class MainActivity extends Activity implements View.OnClickListener, Seri
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
-        txtMessage = findViewById(R.id.txtMessage);
+//        txtMessage = findViewById(R.id.txtMessage);
         message = findViewById(R.id.message);
-        btnSend = findViewById(R.id.btnSend); btnSend.setOnClickListener(this);
+        btnSend = findViewById(R.id.btnSend);
+        btnSend.setOnClickListener(this);
+
+        Display_Log_On_Text_View();
 
         startMQTT();
         openUART();
+    }
+
+    void Display_Log_On_Text_View(){
+        try {
+            Process process = Runtime.getRuntime().exec("logcat -d");
+            BufferedReader bufferedReader = new BufferedReader(
+                    new InputStreamReader(process.getInputStream()));
+
+            StringBuilder log=new StringBuilder();
+            String line;
+
+            while ((line = bufferedReader.readLine()) != null) {
+                log.append(line);
+                log.append("\n");
+            }
+
+            txtMessage = findViewById(R.id.txtMessage);
+            txtMessage.setText(log.toString());
+
+        } catch (IOException e) {
+
+        }
     }
 
     @Override
@@ -86,8 +115,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Seri
             sendMessageUART(message.getText().toString());
             message.setText("");
         }
-//        dataReceived = "#N1:33.4,40.4$";
-
+        //dataReceived = "#N1:33.4,40.4$";
     }
 
     void Send_Data_In_JSON_Format(String Sensor_Node_id, String Temperature, String Light_Level) {
@@ -168,8 +196,10 @@ public class MainActivity extends Activity implements View.OnClickListener, Seri
     }
 
     private void getDataReceived(){
-        int startPos = 0;
-        int endPos = 0;
+        int startPos, endPos;
+
+        Display_Log_On_Text_View();
+
         try {
             startPos = dataReceived.indexOf("#");
             endPos = dataReceived.indexOf("$");
@@ -267,6 +297,8 @@ public class MainActivity extends Activity implements View.OnClickListener, Seri
 
                 JsonReader jsonReader = new JsonReader(new StringReader(json));
                 jsonReader.setLenient(true);
+
+                Display_Log_On_Text_View();
 
                 try {
                     while (jsonReader.hasNext()) {

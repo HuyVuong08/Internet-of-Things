@@ -63,9 +63,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Gson gson = new Gson();
     Data data;
 
-    GraphView graphSensor1;
-    GraphView graphSensor2;
-    ArrayList<DataPoint> dataRes = new ArrayList<>();
+    GraphView Sensor_Node_1_Temperature_Graph;
+    GraphView Sensor_Node_1_Light_Graph;
+    ArrayList<DataPoint> dataResTemp = new ArrayList<>();
+    ArrayList<DataPoint> dataResLight = new ArrayList<>();
 
     Button micButton;
     boolean isOpenMic = false;
@@ -87,7 +88,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        graphSensor1 = findViewById(R.id.graphLightLevel);
+        Sensor_Node_1_Temperature_Graph = findViewById(R.id.graphN1Temperature);
+        Sensor_Node_1_Light_Graph = findViewById(R.id.graphN1LightLevel);
 
         bntNode1_Control = findViewById(R.id.btnNode1);
         bntNode1_Control.setOnClickListener(this);
@@ -312,21 +314,37 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             switch (data_type) {
 
                                 case Node1_Control:
+
                                     json_node1_control = (int) Float.parseFloat(value);
                                     data_type = None;
                                     Log.d("JSON-Receive", String.format("Node1 Control: %s", json_node1_control));
+//                                    bntNode1_Control.setText();
                                     break;
 
                                 case Temperature1:
+
                                     json_temperature = Float.parseFloat(value);
                                     data_type = None;
                                     Log.d("JSON-Receive", String.format("Temperature 1: %s", json_temperature));
+
+                                    dataResTemp.add(new DataPoint(dataResTemp.size(), (int) json_temperature));
+                                    DataPoint[] dataTemp = new DataPoint[0];
+                                    LineGraphSeries<DataPoint> seriesTemp = new LineGraphSeries<>(dataResTemp.toArray(dataTemp));
+                                    Sensor_Node_1_Temperature_Graph.addSeries(seriesTemp);
+                                    Log.d("Graph", String.format("Temperature: %s", json_temperature));
                                     break;
 
                                 case Light1:
+
                                     json_light = Float.parseFloat(value);
                                     data_type = None;
                                     Log.d("JSON-Receive", String.format("Light level 1: %s", json_light));
+
+                                    dataResLight.add(new DataPoint(dataResLight.size(), (int) json_light));
+                                    DataPoint[] dataLight = new DataPoint[0];
+                                    LineGraphSeries<DataPoint> seriesLight = new LineGraphSeries<>(dataResLight.toArray(dataLight));
+                                    Sensor_Node_1_Light_Graph.addSeries(seriesLight);
+                                    Log.d("Graph", String.format("Light Level: %s", json_light));
                                     break;
 
                                 default:
@@ -358,13 +376,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                    data = "-1";
 //                }
 //                dataRes.add(new DataPoint(dataRes.size(), Integer.parseInt(String.valueOf(json_light))));
-                Log.d("Graph", String.format("Light Level: %s", json_light));
-                dataRes.add(new DataPoint(dataRes.size(), (int) json_light));
-                DataPoint[] dataTemp = new DataPoint[0];
-                LineGraphSeries<DataPoint> series = new LineGraphSeries<>(dataRes.toArray(dataTemp));
-
-                graphSensor1.addSeries(series);
-                graphSensor2.addSeries(series);
             }
 
             @Override
@@ -374,7 +385,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
     }
 
-    public static final Integer RecordAudioRequestCode = 1;
+//    private void showDataOnGraph(LineGraphSeries<DataPoint> series, GraphView graph){
+//        if(graph.getSeries().size() > 0){
+//            graph.getSeries().remove(0);
+//        }
+//        graph.addSeries(series);
+//        series.setDrawDataPoints(true);
+//        series.setDataPointsRadius(10);
+//    }
+
+//        private void showDataOnGraph(LineGraphSeries<DataPoint> series, GraphView graph){
+//        if(graph.getSeries().size() > 0){
+//            graph.getSeries().remove(0);
+//        }
+//        graph.addSeries(series);
+//        series.setDrawDataPoints(true);
+//        series.setDataPointsRadius(10);
+//    }
+
+
+        public static final Integer RecordAudioRequestCode = 1;
     private SpeechRecognizer speechRecognizer;
     @Override
 

@@ -55,8 +55,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnSubmit = findViewById(R.id.btnSubmit); btnSubmit.setOnClickListener(this);
 
         startMQTT();
-
-
     }
 
 

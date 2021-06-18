@@ -14,7 +14,7 @@
         android:background="@drawable/border">
 
         <com.jjoe64.graphview.GraphView
-            android:id="@+id/graphTemperature"
+            android:id="@+id/graphN1Temperature"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"/>
@@ -28,7 +28,7 @@
         android:background="@drawable/border">
 
         <com.jjoe64.graphview.GraphView
-            android:id="@+id/graphLightLevel"
+            android:id="@+id/graphN1LightLevel"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"/>
