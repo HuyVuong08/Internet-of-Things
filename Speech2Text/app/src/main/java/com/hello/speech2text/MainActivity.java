@@ -34,6 +34,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Start_Speech_Recognizer();
+    }
+
+    void Start_Speech_Recognizer() {
+
         if(ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED){
             Log.d("SpeechRecognition", "Checking permission");
             checkPermission();
@@ -100,20 +105,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-//        micButton.setOnTouchListener(new View.OnTouchListener() {
-//            @Override
-//            public boolean onTouch(View view, MotionEvent motionEvent) {
-//                if (motionEvent.getAction() == MotionEvent.ACTION_UP){
-//                    speechRecognizer.stopListening();
-//                }
-//                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN){
-//                    micButton.setImageResource(R.drawable.ic_mic_black_24dp);
-//                    speechRecognizer.startListening(speechRecognizerIntent);
-//                }
-//                return false;
-//            }
-//        }
-//        );
+        micButton.setOnTouchListener(new View.OnTouchListener() {
+                                         @Override
+                                         public boolean onTouch(View view, MotionEvent motionEvent) {
+                                             if (motionEvent.getAction() == MotionEvent.ACTION_UP){
+                                                 speechRecognizer.stopListening();
+                                             }
+                                             if (motionEvent.getAction() == MotionEvent.ACTION_DOWN){
+                                                 micButton.setImageResource(R.drawable.ic_mic_black_24dp);
+                                                 speechRecognizer.startListening(speechRecognizerIntent);
+                                             }
+                                             return false;
+                                         }
+                                     }
+        );
     }
 
     @Override
