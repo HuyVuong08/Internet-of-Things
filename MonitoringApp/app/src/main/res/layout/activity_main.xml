@@ -9,7 +9,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,8 +20,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="#59f9f8"
+                android:background="@drawable/node1_banner_border"
                 android:text="SENSOR NODE 1 TEMPERATURE"
                 android:textAlignment="center"
                 android:textColor="#4c4444"
@@ -30,14 +30,12 @@
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/graphN1Temperature"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_margin="5dp"/>
+                android:layout_height="150dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="#59f9f8"
+                android:background="@drawable/node1_banner_border"
                 android:text="SENSOR NODE 1 LIGHT LEVEL"
                 android:textAlignment="center"
                 android:textColor="#4c4444"
@@ -47,14 +45,60 @@
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/graphN1LightLevel"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_margin="5dp" />
+                android:layout_height="150dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
+                <!--android:background="#fdef2b"-->
+
+                <Button
+                    android:id="@+id/btnNode1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/on_button_border"
+                    android:text="NODE1 ON"
+                    android:textColor="#4c4444"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/on_button_border"
+                    android:text="SAMPLE/MIN"
+                    android:textColor="#4c4444"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/on_button_border"
+                    android:text="NODE1 OFF"
+                    android:textColor="#4c4444"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="#6f49f9"
+                android:background="@drawable/node2_banner_border"
                 android:text="SENSOR NODE 2 TEMPERATURE"
                 android:textAlignment="center"
                 android:textColor="#fdfdfe"
@@ -64,14 +108,12 @@
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/graphN2Temperature"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_margin="5dp"/>
+                android:layout_height="150dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="#6f49f9"
+                android:background="@drawable/node2_banner_border"
                 android:text="SENSOR NODE 2 LIGHT LEVEL"
                 android:textAlignment="center"
                 android:textColor="#fdfdfe"
@@ -81,37 +123,53 @@
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/graphN2LightLevel"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_margin="5dp" />
+                android:layout_height="150dp" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:orientation="horizontal"
-                android:background="#fdef2b">
-
-                <Button
-                    android:id="@+id/btnNode1"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/border"
-                    android:textColor="#4c4444"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:text="NODE1 OFF"/>
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btnNode2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/border"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/on_button_border"
+                    android:text="NODE2 ON"
                     android:textColor="#4c4444"
                     android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:text="NODE2 OFF"/>
+                    android:textStyle="bold" />
 
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/on_button_border"
+                    android:text="SAMPLE/MIN"
+                    android:textColor="#4c4444"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/on_button_border"
+                    android:text="NODE1 OFF"
+                    android:textColor="#4c4444"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -120,23 +178,23 @@
                 android:orientation="horizontal">
 
                 <!--<EditText-->
-                    <!--android:id="@+id/txtSpeech"-->
-                    <!--android:layout_width="0dp"-->
-                    <!--android:layout_height="match_parent"-->
-                    <!--android:layout_weight="3"-->
-                    <!--android:background="@drawable/border"-->
-                    <!--android:gravity="center_vertical"-->
-                    <!--android:paddingRight="20dp"-->
-                    <!--android:text="voice"-->
-                    <!--android:textSize="20dp"/>-->
+                <!--android:id="@+id/txtSpeech"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="3"-->
+                <!--android:background="@drawabutton_borderrder"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:paddingRight="20dp"-->
+                <!--android:text="voice"-->
+                <!--android:textSize="20dp"/>-->
 
                 <EditText
                     android:id="@+id/text"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
                     android:layout_weight="8"
-                    android:hint="Tap to Speak"
-                    android:layout_centerInParent="true"/>
+                    android:hint="Tap to Speak" />
 
                 <ImageView
                     android:id="@+id/button"
@@ -144,18 +202,18 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#F9F8FA"
-                    android:src="@drawable/ic_mic_black_off"/>
+                    android:src="@drawable/ic_mic_black_off" />
 
                 <!--<Button-->
-                    <!--android:id="@+id/btnMic"-->
-                    <!--android:layout_width="0dp"-->
-                    <!--android:layout_height="match_parent"-->
-                    <!--android:layout_weight="1"-->
-                    <!--android:background="@drawable/border"-->
-                    <!--android:textColor="#4c4444"-->
-                    <!--android:textSize="20dp"-->
-                    <!--android:textStyle="bold"-->
-                    <!--android:text="Mic"/>-->
+                <!--android:id="@+id/btnMic"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawabutton_borderrder"-->
+                <!--android:textColor="#4c4444"-->
+                <!--android:textSize="20dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:text="Mic"/>-->
 
             </LinearLayout>
 

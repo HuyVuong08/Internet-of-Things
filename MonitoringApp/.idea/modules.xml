@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JSONReceiver.iml" filepath="$PROJECT_DIR$/JSONReceiver.iml" />
+      <module fileurl="file://E:\Internet-of-Things-master\MonitoringApp\JSONReceiver.iml" filepath="E:\Internet-of-Things-master\MonitoringApp\JSONReceiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MonitoringApp.iml" filepath="$PROJECT_DIR$/MonitoringApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

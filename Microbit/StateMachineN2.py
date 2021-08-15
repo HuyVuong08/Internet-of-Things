@@ -14,6 +14,7 @@ STATE = "Receive_Message"
 PREV_STATE = "Receive_Message"
 isPrinted = 0
 power = "ON"
+sampling_rate = 6
 count = 0
 
 def Encode_Data(Message):

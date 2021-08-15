@@ -1,0 +1,4 @@
+#Sat Aug 14 21:33:16 ICT 2021
+base.0=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+renamed.0=classes.dex
+file.0=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4\\classes.dex

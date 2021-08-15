@@ -21,12 +21,12 @@ public class MQTTHelper {
     final String serverUri = "tcp://io.adafruit.com:1883";
 
 
-    final String clientId = "receiver";
+    final String clientId = "receiver13";
 
     final String subscriptionTopic = "huyvuong820/groups/internet-of-things/json";
 
     final String username = "huyvuong820";
-    final String password = "aio_HjKS10xuojHMKErOPMRlWBEoCN8S";
+    final String password = "aio_oSMk01DDHU4Nk8KY4G0SvPBGw8hP";
 
 //    final String subscriptionTopic = "Kenz201/feeds/iot-bk-202";
 //

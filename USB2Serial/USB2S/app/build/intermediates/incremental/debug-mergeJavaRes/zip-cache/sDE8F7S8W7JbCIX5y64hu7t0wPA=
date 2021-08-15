@@ -1,0 +1,2098 @@
+ */
+    public static final int Toolbar_titleMarginStart=24;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#titleMarginTop}
+     * attribute's value can be found in the {@link #Toolbar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.hello.usb2serial:titleMarginTop
+     */
+    public static final int Toolbar_titleMarginTop=25;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#titleMargins}
+     * attribute's value can be found in the {@link #Toolbar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.hello.usb2serial:titleMargins
+     */
+    public static final int Toolbar_titleMargins=26;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#titleTextAppearance}
+     * attribute's value can be found in the {@link #Toolbar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.hello.usb2serial:titleTextAppearance
+     */
+    public static final int Toolbar_titleTextAppearance=27;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#titleTextColor}
+     * attribute's value can be found in the {@link #Toolbar} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.hello.usb2serial:titleTextColor
+     */
+    public static final int Toolbar_titleTextColor=28;
+    /**
+     * Attributes that can be used with a Transform.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Transform_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_translationX android:translationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_translationY android:translationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_scaleX android:scaleX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_scaleY android:scaleY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_rotation android:rotation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_rotationX android:rotationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_rotationY android:rotationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_translationZ android:translationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_elevation android:elevation}</code></td><td></td></tr>
+     * </table>
+     * @see #Transform_android_transformPivotX
+     * @see #Transform_android_transformPivotY
+     * @see #Transform_android_translationX
+     * @see #Transform_android_translationY
+     * @see #Transform_android_scaleX
+     * @see #Transform_android_scaleY
+     * @see #Transform_android_rotation
+     * @see #Transform_android_rotationX
+     * @see #Transform_android_rotationY
+     * @see #Transform_android_translationZ
+     * @see #Transform_android_elevation
+     */
+    public static final int[] Transform={
+        0x01010320, 0x01010321, 0x01010322, 0x01010323, 
+        0x01010324, 0x01010325, 0x01010326, 0x01010327, 
+        0x01010328, 0x010103fa, 0x01010440
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:elevation
+     */
+    public static final int Transform_android_elevation=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotation}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotation
+     */
+    public static final int Transform_android_rotation=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationX
+     */
+    public static final int Transform_android_rotationX=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationY
+     */
+    public static final int Transform_android_rotationY=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleX
+     */
+    public static final int Transform_android_scaleX=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleY
+     */
+    public static final int Transform_android_scaleY=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotX
+     */
+    public static final int Transform_android_transformPivotX=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotY
+     */
+    public static final int Transform_android_transformPivotY=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationX}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationX
+     */
+    public static final int Transform_android_translationX=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationY}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationY
+     */
+    public static final int Transform_android_translationY=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationZ
+     */
+    public static final int Transform_android_translationZ=9;
+    /**
+     * Attributes that can be used with a Transition.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Transition_android_id android:id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_autoTransition com.hello.usb2serial:autoTransition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_constraintSetEnd com.hello.usb2serial:constraintSetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_constraintSetStart com.hello.usb2serial:constraintSetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_duration com.hello.usb2serial:duration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_layoutDuringTransition com.hello.usb2serial:layoutDuringTransition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_motionInterpolator com.hello.usb2serial:motionInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_pathMotionArc com.hello.usb2serial:pathMotionArc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_staggered com.hello.usb2serial:staggered}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_transitionDisable com.hello.usb2serial:transitionDisable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_transitionFlags com.hello.usb2serial:transitionFlags}</code></td><td></td></tr>
+     * </table>
+     * @see #Transition_android_id
+     * @see #Transition_autoTransition
+     * @see #Transition_constraintSetEnd
+     * @see #Transition_constraintSetStart
+     * @see #Transition_duration
+     * @see #Transition_layoutDuringTransition
+     * @see #Transition_motionInterpolator
+     * @see #Transition_pathMotionArc
+     * @see #Transition_staggered
+     * @see #Transition_transitionDisable
+     * @see #Transition_transitionFlags
+     */
+    public static final int[] Transition={
+        0x010100d0, 0x7f020036, 0x7f020064, 0x7f020065, 
+        0x7f020096, 0x7f0200d0, 0x7f020128, 0x7f020145, 
+        0x7f020173, 0x7f0201af, 0x7f0201b1
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:id
+     */
+    public static final int Transition_android_id=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#autoTransition}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>animateToEnd</td><td>4</td><td></td></tr>
+     * <tr><td>animateToStart</td><td>3</td><td></td></tr>
+     * <tr><td>jumpToEnd</td><td>2</td><td></td></tr>
+     * <tr><td>jumpToStart</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.hello.usb2serial:autoTransition
+     */
+    public static final int Transition_autoTransition=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#constraintSetEnd}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.hello.usb2serial:constraintSetEnd
+     */
+    public static final int Transition_constraintSetEnd=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#constraintSetStart}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.hello.usb2serial:constraintSetStart
+     */
+    public static final int Transition_constraintSetStart=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#duration}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.hello.usb2serial:duration
+     */
+    public static final int Transition_duration=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#layoutDuringTransition}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>honorRequest</td><td>1</td><td></td></tr>
+     * <tr><td>ignoreRequest</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.hello.usb2serial:layoutDuringTransition
+     */
+    public static final int Transition_layoutDuringTransition=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#motionInterpolator}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bounce</td><td>5</td><td></td></tr>
+     * <tr><td>easeIn</td><td>1</td><td></td></tr>
+     * <tr><td>easeInOut</td><td>0</td><td></td></tr>
+     * <tr><td>easeOut</td><td>2</td><td></td></tr>
+     * <tr><td>linear</td><td>3</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.hello.usb2serial:motionInterpolator
+     */
+    public static final int Transition_motionInterpolator=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#pathMotionArc}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>flip</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>startHorizontal</td><td>2</td><td></td></tr>
+     * <tr><td>startVertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.hello.usb2serial:pathMotionArc
+     */
+    public static final int Transition_pathMotionArc=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#staggered}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.hello.usb2serial:staggered
+     */
+    public static final int Transition_staggered=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#transitionDisable}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.hello.usb2serial:transitionDisable
+     */
+    public static final int Transition_transitionDisable=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#transitionFlags}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>beginOnFirstDraw</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.hello.usb2serial:transitionFlags
+     */
+    public static final int Transition_transitionFlags=10;
+    /**
+     * Attributes that can be used with a Variant.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Variant_constraints com.hello.usb2serial:constraints}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_region_heightLessThan com.hello.usb2serial:region_heightLessThan}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_region_heightMoreThan com.hello.usb2serial:region_heightMoreThan}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_region_widthLessThan com.hello.usb2serial:region_widthLessThan}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_region_widthMoreThan com.hello.usb2serial:region_widthMoreThan}</code></td><td></td></tr>
+     * </table>
+     * @see #Variant_constraints
+     * @see #Variant_region_heightLessThan
+     * @see #Variant_region_heightMoreThan
+     * @see #Variant_region_widthLessThan
+     * @see #Variant_region_widthMoreThan
+     */
+    public static final int[] Variant={
+        0x7f020068, 0x7f02015a, 0x7f02015b, 0x7f02015c, 
+        0x7f02015d
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#constraints}
+     * attribute's value can be found in the {@link #Variant} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.hello.usb2serial:constraints
+     */
+    public static final int Variant_constraints=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#region_heightLessThan}
+     * attribute's value can be found in the {@link #Variant} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.hello.usb2serial:region_heightLessThan
+     */
+    public static final int Variant_region_heightLessThan=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#region_heightMoreThan}
+     * attribute's value can be found in the {@link #Variant} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.hello.usb2serial:region_heightMoreThan
+     */
+    public static final int Variant_region_heightMoreThan=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#region_widthLessThan}
+     * attribute's value can be found in the {@link #Variant} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.hello.usb2serial:region_widthLessThan
+     */
+    public static final int Variant_region_widthLessThan=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#region_widthMoreThan}
+     * attribute's value can be found in the {@link #Variant} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.hello.usb2serial:region_widthMoreThan
+     */
+    public static final int Variant_region_widthMoreThan=4;
+    /**
+     * Attributes that can be used with a View.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.hello.usb2serial:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.hello.usb2serial:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.hello.usb2serial:theme}</code></td><td></td></tr>
+     * </table>
+     * @see #View_android_theme
+     * @see #View_android_focusable
+     * @see #View_paddingEnd
+     * @see #View_paddingStart
+     * @see #View_theme
+     */
+    public static final int[] View={
+        0x01010000, 0x010100da, 0x7f02013f, 0x7f020140, 
+        0x7f020190
+      };
+    /**
+     * Attributes that can be used with a ViewBackgroundHelper.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.hello.usb2serial:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.hello.usb2serial:backgroundTintMode}</code></td><td></td></tr>
+     * </table>
+     * @see #ViewBackgroundHelper_android_background
+     * @see #ViewBackgroundHelper_backgroundTint
+     * @see #ViewBackgroundHelper_backgroundTintMode
+     */
+    public static final int[] ViewBackgroundHelper={
+        0x010100d4, 0x7f02003a, 0x7f02003b
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#background}
+     * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:background
+     */
+    public static final int ViewBackgroundHelper_android_background=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#backgroundTint}
+     * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.hello.usb2serial:backgroundTint
+     */
+    public static final int ViewBackgroundHelper_backgroundTint=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.hello.usb2serial:backgroundTintMode
+     */
+    public static final int ViewBackgroundHelper_backgroundTintMode=2;
+    /**
+     * Attributes that can be used with a ViewStubCompat.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ViewStubCompat_android_id android:id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewStubCompat_android_layout android:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewStubCompat_android_inflatedId android:inflatedId}</code></td><td></td></tr>
+     * </table>
+     * @see #ViewStubCompat_android_id
+     * @see #ViewStubCompat_android_layout
+     * @see #ViewStubCompat_android_inflatedId
+     */
+    public static final int[] ViewStubCompat={
+        0x010100d0, 0x010100f2, 0x010100f3
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:id
+     */
+    public static final int ViewStubCompat_android_id=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:inflatedId
+     */
+    public static final int ViewStubCompat_android_inflatedId=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:layout
+     */
+    public static final int ViewStubCompat_android_layout=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#focusable}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>auto</td><td>10</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:focusable
+     */
+    public static final int View_android_focusable=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:theme
+     */
+    public static final int View_android_theme=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#paddingEnd}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.hello.usb2serial:paddingEnd
+     */
+    public static final int View_paddingEnd=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#paddingStart}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.hello.usb2serial:paddingStart
+     */
+    public static final int View_paddingStart=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.hello.usb2serial.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.hello.usb2serial:theme
+     */
+    public static final int View_theme=4;
+  }
+  public static final class xml {
+    public static final int device_filter=0x7f0e0000;
+  }
+}                                                                                                                                                                                                                                                                                                                                                                                          [
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_btn_default_mtrl_shape.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_search_url_text.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_list_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_tooltip_exit.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_switch_thumb_material_dark.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_seek_thumb.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ratingbar_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_select_dialog_item_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_popup_exit.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_list_divider_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_fade_in.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_popup_enter.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_ab_back_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_activity_chooser_view.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_expanded_menu_layout.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_text_cursor_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_material_light.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_seekbar_track_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_vector_test.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_go_search_api_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_abc_list_divider_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_edit_text_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_shrink_fade_out_from_bottom.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_switch_thumb_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_tint_seek_thumb.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_select_dialog_singlechoice_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_tint_default.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_switch_thumb_material_light.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_tooltip_frame_light.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_tint_switch_track.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout-v26\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_secondary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_btn_borderless_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_btn_colored_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-hdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_screen_simple.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_btn_check_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-watch-v20_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_fade_out.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_spinner.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_secondary_text_material_light.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v23_abc_control_background_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_alert_dialog_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_bar_title_item.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_slide_in_bottom.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_hint_foreground_material_light.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_slide_in_top.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_color_highlight_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_abc_btn_colored_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_screen_content_include.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_background_cache_hint_selector_material_light.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_screen_toolbar.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_select_dialog_multichoice_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_tint_spinner.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_support_simple_spinner_dropdown_item.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_search_view.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_item_background_holo_light.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_textfield_search_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_tooltip_frame_dark.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_tooltip_enter.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_slide_out_top.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_tooltip.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_tooltip.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_cascading_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_mode_bar.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_bar_up_container.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_search_api_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_select_dialog_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_switch_track.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_menu_layout.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_list_menu_item_radio.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_cab_background_top_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_clear_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_slide_out_bottom.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_list_menu_item_icon.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_btn_checkable.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\39e8c0f48f72e1396a6075cb3f4e5fa7\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\ngoc0\\.gradle\\caches\\tran

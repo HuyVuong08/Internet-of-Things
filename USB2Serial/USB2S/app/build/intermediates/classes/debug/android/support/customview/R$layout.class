@@ -1,0 +1,15 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ngoc0\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4838f88dded2c2fe58894e0f7854b3da\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+    

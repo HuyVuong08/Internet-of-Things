@@ -1,0 +1,19 @@
+#Sat Aug 14 21:33:21 ICT 2021
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.5=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
+base.4=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
+base.3=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+base.2=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+base.1=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+base.0=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+file.5=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17\\classes.dex
+file.4=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16\\classes.dex
+file.3=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15\\classes.dex
+file.2=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14\\classes.dex
+file.1=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13\\classes.dex
+file.0=E\:\\Internet-of-Things-master\\USB2Serial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12\\classes.dex

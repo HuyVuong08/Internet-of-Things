@@ -38,9 +38,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static com.hello.usb2serial.MainActivity.Data_Type.Light1;
+import static com.hello.usb2serial.MainActivity.Data_Type.Light2;
 import static com.hello.usb2serial.MainActivity.Data_Type.Node1_Control;
+import static com.hello.usb2serial.MainActivity.Data_Type.Node2_Control;
 import static com.hello.usb2serial.MainActivity.Data_Type.None;
 import static com.hello.usb2serial.MainActivity.Data_Type.Temperature1;
+import static com.hello.usb2serial.MainActivity.Data_Type.Temperature2;
 
 public class MainActivity extends Activity implements View.OnClickListener, SerialInputOutputManager.Listener {
 
@@ -267,12 +270,20 @@ public class MainActivity extends Activity implements View.OnClickListener, Seri
             this.light = light;
         }
 
+//        @Override
+//        public String toString() {
+//            return new StringBuilder().append("{\"feeds\":{\"Sensor-Node-").append(id).append("-Temperature\":\"")
+//                    .append(temperature).append("\",\"Sensor-Node-").append(id).append("-Light-Level\":\"")
+//                    .append(light).append("\"}}").toString();
+//        }
+
         @Override
         public String toString() {
-            return new StringBuilder().append("{\"feeds\":{\"temperature").append(id).append("\":\"")
-                    .append(temperature).append("\",\"light").append(id).append("\":\"")
+            return new StringBuilder().append("{\"feeds\":{\"Temperature-Sensor-Node-").append(id).append("\":\"")
+                    .append(temperature).append("\",\"Light-Level-Sensor-Node-").append(id).append("\":\"")
                     .append(light).append("\"}}").toString();
         }
+
     }
 
     MQTTHelper mqttHelper;
@@ -311,12 +322,18 @@ public class MainActivity extends Activity implements View.OnClickListener, Seri
                         } else if (JsonToken.NAME.equals(nextToken)) {
 
                             String name = jsonReader.nextName();
-                            if (name.equals("node1")) {
+                            if (name.equals("control-sensor-node-1")) {
                                 data_type = Node1_Control;
                             } else if (name.equals("temperature1")) {
                                 data_type = Temperature1;
                             } else if (name.equals("light1")) {
                                 data_type = Light1;
+                            } else if (name.equals("control-sensor-node-2")) {
+                                data_type = Node2_Control;
+                            } else if (name.equals("temperature2")) {
+                                data_type = Temperature2;
+                            } else if (name.equals("light2")) {
+                                data_type = Light2;
                             } else {
                                 data_type = None;
                             }
@@ -345,6 +362,27 @@ public class MainActivity extends Activity implements View.OnClickListener, Seri
                                     json_light = Float.parseFloat(value);
                                     data_type = None;
                                     Log.d("JSON-Receive", String.format("Light level 1: %s", json_light));
+                                    break;
+
+                                case Node2_Control:
+                                    json_node2_control = "#GW:N2," + value + "$";
+                                    sendMessageUART(json_node2_control);
+                                    txtMessage.append("UART-Send: " + json_node2_control + "\n");
+                                    data_type = None;
+                                    Log.d("JSON-Receive", String.format("Sensor Node 2 Control: %s", value));
+                                    Log.d("UART-Send", String.format("Message: %s", json_node2_control));
+                                    break;
+
+                                case Temperature2:
+                                    json_temperature = Float.parseFloat(value);
+                                    data_type = None;
+                                    Log.d("JSON-Receive", String.format("Temperature 2: %s", json_temperature));
+                                    break;
+
+                                case Light2:
+                                    json_light = Float.parseFloat(value);
+                                    data_type = None;
+                                    Log.d("JSON-Receive", String.format("Light level 2: %s", json_light));
                                     break;
 
                                 default:
